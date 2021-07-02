@@ -13,6 +13,7 @@
 // export default DogList;
 
 import React, { useState} from 'react';
+import { Link } from 'react-router-dom';
 import './DogList.css';
 
 function DogList(props) {
@@ -23,7 +24,7 @@ function DogList(props) {
                 {props.dogs.map(d => (
                     <div className="DogList-Dog col-md-4 text-center" key={d.name}>
                         <img src={d.src} alt={d.name} />
-                        <h3>{d.name}</h3>
+                        <Link to={`/home/${d.name}`}><h3>{d.name}</h3></Link>
                     </div>
                 ))}                
             </div>
