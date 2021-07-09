@@ -6,7 +6,7 @@ class DogDetails extends Component {
     render() {
         var { dog } = this.props;
         return (
-            <div className="DogDetails row justify-content-center mt-5">
+            <div className="DogDetails row justify-content-center my-5">
                 <div className="col-11 col-lg-5">
                     <div className="DogDetails-card card">
                         <img className="card-img-top" src={dog.src} alt={dog.name} />
@@ -22,7 +22,7 @@ class DogDetails extends Component {
                             ))}
                         </ul>
                         <div className="card-body">
-                                <Link to="/home" className="btn btn-info">Go Back</Link>                   
+                                <Link to="/home" className="btn btn-info">Go Back</Link>           
                         </div>
                     </div>
                 </div>
