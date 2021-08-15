@@ -16,7 +16,7 @@ class App extends Component {
         facts: [
           "Gadget loves eating popcorn.",
           "Gadget is a terrible guard dog.",
-          "Gadget wants to cuddle with you."
+          "Gadget often wants to cuddle with you."
         ]
       },
       {
@@ -24,9 +24,9 @@ class App extends Component {
         age: 3,
         src: dino,
         facts: [
-          "Dino has sooo much energy.",
+          "Dino has endless amounts of energy.",
           "Dino is highly intelligent.",
-          "Dino loves people more than dogs."
+          "Dino loves humans more than dogs."
         ]
       },
       {
